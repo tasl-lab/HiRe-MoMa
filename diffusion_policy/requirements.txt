@@ -1,0 +1,13 @@
+torch>=1.13
+torchvision
+diffusers==0.18.2
+huggingface_hub<0.26
+numpy==1.26.4
+zarr==2.16.1
+numcodecs
+imagecodecs
+numba
+filelock
+threadpoolctl
+tqdm
+agentlace @ git+https://github.com/youliangtan/agentlace.git@cf2c337c5e3694cdbfc14831b239bd657bc4894d

@@ -1,0 +1,16 @@
+__pycache__/
+*.egg-info/
+# outputs of the scripts (written relative to the repository root)
+/data/
+/runs/
+/ckpt/
+/stats/
+/wandb/
+*.zarr.zip
+*.zarr.zip.lock
+# robot URDF (exported by hire_moma_onboard/scripts/dump_urdf.py)
+hire_moma_onboard/tiago_onboard/tiago_onboard/tiago_sys/urdf/*.urdf
+# LaTeX build files
+asset/*.aux
+asset/*.log
+asset/*.pdf

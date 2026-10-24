@@ -1,0 +1,9 @@
+# ROS1 Noetic (rospy, tf, cv_bridge, control_msgs, ...) comes from the PAL / ROS installation.
+numpy==1.26.4
+scipy==1.11.4
+opencv-python==4.9.0.80
+gym==0.26.2
+flask
+absl-py
+tracikpy @ git+https://github.com/mjd3/tracikpy.git
+oculus_reader @ git+https://github.com/rail-berkeley/oculus_reader.git
